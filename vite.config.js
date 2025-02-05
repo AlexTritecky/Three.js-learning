@@ -1,7 +1,12 @@
 import restart from 'vite-plugin-restart'
 
+const path = {
+	transform: 'transform-objects/',
+	animations: 'animations/',
+}
+
 export default {
-    root: 'transform-objects/', // Sources files (typically where index.html is)
+    root: path.animations, // Sources files (typically where index.html is)
     publicDir: '../static/', // Path from "root" to static assets (files that are served as they are)
     server:
     {
