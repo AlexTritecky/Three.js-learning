@@ -5,10 +5,11 @@ const path = {
 	animations: 'animations/',
 	cameras   : 'cameras/',
 	fullscreen: 'fullscreen-and-resizing/',
+	geometries: 'geometries/',
 }
 
 export default {
-    root: path.fullscreen, // Sources files (typically where index.html is)
+    root: path.geometries, // Sources files (typically where index.html is)
     publicDir: '../static/', // Path from "root" to static assets (files that are served as they are)
     server:
     {
