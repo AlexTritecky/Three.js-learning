@@ -1,12 +1,14 @@
 import restart from 'vite-plugin-restart'
 
 const path = {
-	transform: 'transform-objects/',
+	transform : 'transform-objects/',
 	animations: 'animations/',
+	cameras   : 'cameras/',
+	fullscreen: 'fullscreen-and-resizing/',
 }
 
 export default {
-    root: path.animations, // Sources files (typically where index.html is)
+    root: path.fullscreen, // Sources files (typically where index.html is)
     publicDir: '../static/', // Path from "root" to static assets (files that are served as they are)
     server:
     {
