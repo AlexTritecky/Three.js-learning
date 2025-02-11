@@ -10,10 +10,11 @@ const path = {
 	textures  : 'textures/',
 	materials : 'materials/',
 	text3D    : 'text3D/',
+	lights    : 'lights/',
 }
 
 export default {
-    root: path.text3D, // Sources files (typically where index.html is)
+    root: path.lights, // Sources files (typically where index.html is)
     publicDir: '../static/', // Path from "root" to static assets (files that are served as they are)
     server:
     {
