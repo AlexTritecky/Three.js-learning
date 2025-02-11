@@ -9,10 +9,11 @@ const path = {
 	debug_ui  : 'debug-ui/',
 	textures  : 'textures/',
 	materials : 'materials/',
+	text3D    : 'text3D/',
 }
 
 export default {
-    root: path.materials, // Sources files (typically where index.html is)
+    root: path.text3D, // Sources files (typically where index.html is)
     publicDir: '../static/', // Path from "root" to static assets (files that are served as they are)
     server:
     {
