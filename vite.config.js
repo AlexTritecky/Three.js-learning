@@ -7,10 +7,11 @@ const path = {
 	fullscreen: 'fullscreen-and-resizing/',
 	geometries: 'geometries/',
 	debug_ui  : 'debug-ui/',
+	textures  : 'textures/',
 }
 
 export default {
-    root: path.debug_ui, // Sources files (typically where index.html is)
+    root: path.textures, // Sources files (typically where index.html is)
     publicDir: '../static/', // Path from "root" to static assets (files that are served as they are)
     server:
     {
