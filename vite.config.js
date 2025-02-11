@@ -8,10 +8,11 @@ const path = {
 	geometries: 'geometries/',
 	debug_ui  : 'debug-ui/',
 	textures  : 'textures/',
+	materials : 'materials/',
 }
 
 export default {
-    root: path.textures, // Sources files (typically where index.html is)
+    root: path.materials, // Sources files (typically where index.html is)
     publicDir: '../static/', // Path from "root" to static assets (files that are served as they are)
     server:
     {
