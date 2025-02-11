@@ -6,10 +6,11 @@ const path = {
 	cameras   : 'cameras/',
 	fullscreen: 'fullscreen-and-resizing/',
 	geometries: 'geometries/',
+	debug_ui  : 'debug-ui/',
 }
 
 export default {
-    root: path.geometries, // Sources files (typically where index.html is)
+    root: path.debug_ui, // Sources files (typically where index.html is)
     publicDir: '../static/', // Path from "root" to static assets (files that are served as they are)
     server:
     {
